@@ -1,16 +1,16 @@
-const Github = () => {
+const OpenLink = ({title, url}) => {
     return (
         <div>
             <a
                 className="App-link"
-                href="https://github.com/rflores65/desarrollo-frontend-react"
+                href= {url}
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Mi Proyecto (Github)
+                {title}
             </a>
         </div>
     );
 };
 
-export default Github;
+export default OpenLink;
